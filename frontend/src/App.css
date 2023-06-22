@@ -1,0 +1,29 @@
+.App-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.App-main h1 {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.App {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: auto;
+  margin-top: 25px;   
+}
+
+@media screen and (max-width: 900px) {
+  .App {
+    flex-direction: column;
+  }
+}

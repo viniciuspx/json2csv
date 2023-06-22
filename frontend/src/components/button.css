@@ -1,0 +1,10 @@
+.convert-button {
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.convert-button:hover {
+    background-color:azure;
+}
